@@ -217,3 +217,24 @@
 .socialMedia a:hover {
   opacity: 1.0;
 }
+
+.workList .workCompany, .educationList .educationSchool {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1em;
+}
+
+.workList .workTitle, .educationList .educationDegree {
+  font-size: 1.5em;
+}
+
+.workList .workItem, .educationList .educationItem {
+  padding-bottom: 1.5em;
+}
+
+.workList .workDate, .educationList .educationDate {
+  font-style: italic;
+}
+
+.divSpacer {
+  height: 2em;
+}
