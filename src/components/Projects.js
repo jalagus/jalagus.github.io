@@ -20,7 +20,7 @@ function ProjectList() {
         
         <h3><a href="https://github.com/jalagus/minesweeper-ts" rel="noreferrer" target="_blank">Minesweeper</a></h3>
         <div className="projectDescriptionItem">
-          A classic minesweeper game implements in TypeScript. 
+          A classic minesweeper game implemented in TypeScript. 
           Live demo available at <a href="http://minesweeper.lagus.ai" rel="noreferrer" target="_blank">http://minesweeper.lagus.ai</a>
         </div>
       </div>      
