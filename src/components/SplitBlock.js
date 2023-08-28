@@ -6,7 +6,7 @@ function SplitBlock({component, image}) {
         <div className="splitBlockLeft">
             {component}
         </div>        
-        <div className="splitBlockRight"><img src={image} /></div>        
+        <div className="splitBlockRight"><img src={image} alt="" /></div>        
     </div>
   );
 }

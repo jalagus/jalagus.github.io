@@ -123,7 +123,7 @@
   box-sizing: border-box;
   background-color: #efefef;
   text-align: left;
-  padding: 40px;
+  padding: 20px 40px;
   white-space: pre-wrap;
   font-size: 1em;
 }
@@ -192,4 +192,28 @@
 
 .profileParagraph {
   padding-bottom: 1em; 
+}
+
+.projectList a {
+  text-decoration: none;
+  color: #cb4154;
+}
+.projectList a:hover {
+  text-decoration: underline;
+}
+
+.projectList h3 {
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+}
+
+.projectDescriptionItem {
+  padding-bottom: 1em;
+}
+
+.socialMedia a {
+  opacity: 0.5;
+}
+.socialMedia a:hover {
+  opacity: 1.0;
 }

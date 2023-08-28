@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Header({ setActiveMenu, activeMenu }) {
-  const menuItems = ['Home', 'Education', 'Projects', 'Publications', 'Contact'];
+  const menuItems = ['Home', 'Experience', 'Projects', 'Publications'];
   
   return (
     <div className="header">
@@ -11,7 +11,7 @@ function Header({ setActiveMenu, activeMenu }) {
       </div>
       <ul className="menu">
         {menuItems.map((item) => (
-          <li key={item} className={activeMenu == item ? "selectedPage" : ""} onClick={() => setActiveMenu(item)}>
+          <li key={item} className={activeMenu === item ? "selectedPage" : ""} onClick={() => setActiveMenu(item)}>
             {item}
           </li>
         ))}

@@ -16,8 +16,8 @@ function Profile() {
         <div className="profileParagraph">I am enthusiastic about forging connections with peers, industry professionals, and organizations that share my passion for NLP and AI. Should you wish to engage in collaborative endeavors, strategic discussions, or simply explore possibilities, please do not hesitate to contact me via the social links below.</div>
       </div>
       <div className="socialMedia">
-        <a href="https://www.linkedin.com/in/jarkko-lagus-62678440/" target="_blank"><img src={linkedinIcon} alt="LinkedIn" /></a>
-        <a href="https://github.com/jalagus" target="_blank"><img src={githubIcon} alt="Github" /></a>
+        <a href="https://www.linkedin.com/in/jarkko-lagus-62678440/" rel="noreferrer" target="_blank"><img src={linkedinIcon} alt="LinkedIn" /></a>
+        <a href="https://github.com/jalagus" rel="noreferrer" target="_blank"><img src={githubIcon} alt="Github" /></a>
       </div>
     </div>
   );
