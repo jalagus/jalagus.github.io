@@ -6,7 +6,7 @@ function Header({ setActiveMenu, activeMenu }) {
   return (
     <div className="header">
       <div className="headerTitle">
-        <div className="bigTitle">lagus.ai</div>
+        <div className="bigTitle">Jarkko Lagus</div>
         <div className="subTitle">Machine learning consulting</div>
       </div>
       <ul className="menu">

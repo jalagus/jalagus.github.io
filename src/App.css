@@ -61,6 +61,7 @@
   font-weight: bold;
   font-size: 1em;
   padding: 20px 60px;
+  cursor: pointer;
 }
 
 .buttonStyle:hover {
@@ -92,6 +93,7 @@
 
 .header ul li {
   padding: 10px 20px;
+  cursor: pointer;
 }
 
 .header ul li:hover {
@@ -153,7 +155,7 @@
 .subTitle {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
-  padding-left: 70px;
+  padding-left: 77px;
   position: relative;
   top: -10px;
 }

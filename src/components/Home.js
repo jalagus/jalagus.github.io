@@ -36,15 +36,18 @@ function Home() {
           <div className="headerAllCaps">Welcome</div>
           <div className="headerProductName">lagus.ai</div>
           <div className="headerProductDesc">Machine learning and artificial intelligence consulting tailored to your business needs.</div>
-          <button className="buttonStyle">Get started</button>
+          <a href="#contactForm">
+            <button className="buttonStyle">Get started</button>
+          </a>
         </div>
       </div>
 
       <SplitBlock
         component={<Profile />}
         image={profileSide} />
-
-      <ContactForm />
+      <div id="contactForm">
+        <ContactForm />
+      </div>
     </div>
   );
 }
