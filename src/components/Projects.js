@@ -1,12 +1,29 @@
 import React from 'react';
 import SplitBlock from './SplitBlock';
-import projectImage from '../img/project-page.jpg';
+import dataProjectImage from '../img/project-page.jpg';
+import projectImage from '../img/project-page-2.jpg';
 
+import SplitBlockReverse from './SplitBlockReverse';
+
+
+function DataProjectList() {
+  return (
+    <div className="projectList">
+      <h2>Data projects</h2>
+      <div>
+        <h3><a href="https://github.com/jalagus/eurostat-graphs" rel="noreferrer" target="_blank">Eurostat visualizations</a></h3>
+        <div className="projectDescriptionItem">
+          Simple Eurostat data visualization platform/dashboard built on Shiny for Python.
+        </div>
+      </div>      
+    </div>
+  );
+}
 
 function ProjectList() {
   return (
     <div className="projectList">
-      <h2>Hobby projects</h2>
+      <h2>Random projects</h2>
       <div>
         <h3><a href="https://github.com/jalagus/rust-sudoku-solver" rel="noreferrer" target="_blank">Sudoku solver in Rust</a></h3>
         <div className="projectDescriptionItem">
@@ -32,9 +49,13 @@ function Projects() {
   return (
     <div className="content">
       <SplitBlock
+        component={<DataProjectList />}
+        image={dataProjectImage} />
+      <div className="divSpacer"></div>
+      <SplitBlockReverse 
         component={<ProjectList />}
         image={projectImage} />
-    </div>
+    </div>    
   );
 }
 
